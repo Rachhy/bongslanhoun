@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    
+    button{
+            padding:30px 40px;
+            background-color: rgb(16, 194, 194);
+            border-radius: 100px;
+        }
+        img
+        {
+            width: 80px;
+        }
+        p
+        {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            
+        }
+    u{
+        color:blue
+    }
+    </style>
+</head>
+<body>
+    <p>Rock Paper Scissors</p>
+    <button onclick="
+    ran='rock';
+    math=Math.random(math);
+    console.log(math);
+
+    if (math<0.33)
+{
+    lose+=1;
+    alert(`You pick rock, Computer pick paper.So you are lose.\n Win=${win},Lose=${lose},Equal=${equal}`);
+    
+}
+    else if(math>0.33&&math<0.66)
+{
+    win+=1;
+    alert(`You pick rock, Computer pick scissors.So you are win.\n Win=${win},Lose=${lose},Equal=${equal}`);
+    
+}
+    else
+{   
+    equal+=1;
+    alert(`You pick rock, Computer pick rock.So you are equal.\n Win=${win},Lose=${lose},Equal=${equal}`);   
+}
+    ">
+        <img src="/pic/rock.png" alt=""></button>
+    <button onclick="
+    ran='rock';
+    math=Math.random(math);
+    console.log(math);
+
+    if (math<0.33)
+{
+    lose+=1;
+    alert(`You pick paper, Computer pick scissors.So you are lose.\n Win=${win},Lose=${lose},Equal=${equal}`);
+    
+}
+    else if(math>0.33&&math<0.66)
+{
+    win+=1;
+    alert(`You pick paper, Computer pick rock.So you are win.\n Win=${win},Lose=${lose},Equal=${equal}`);
+    
+}
+    else
+{   
+    equal+=1;
+    alert(`You pick paper, Computer pick paper.So you are equal.\n Win=${win},Lose=${lose},Equal=${equal}`);   
+}
+    "><img src="/pic/gg.png" alt=""></button>
+    <button onclick="
+    ran='rock';
+    math=Math.random(math);
+    console.log(math);
+
+    if (math<0.33)
+{
+    lose+=1;
+    alert(`You pick scissors, Computer pick rock.So you are lose.\n Win=${win},Lose=${lose},Equal=${equal}`);
+    
+}
+    else if(math>0.33&&math<0.66)
+{
+    win+=1;
+    alert(`You pick scissors, Computer pick paper.So you are win.\n Win=${win},Lose=${lose},Equal=${equal}`);
+    
+}
+    else
+{   
+    equal+=1;
+    alert(`You pick rock, Computer pick paper.So you are equal.\n Win=${win},Lose=${lose},Equal=${equal}`);   
+}
+    "><img src="/pic/pp.png" alt=""></button>
+    <button  onclick="
+    win=0;
+    lose=0;
+    equal=0;
+    alert(`Your scores now : \n Win=${win},Lose=${lose},Equal=${equal}`)
+    "
+    >Reset Score</button>
+    <p><u>click here
+    </u>to see the final version of Rock Paper Scissors</p>
+    <script>
+        let ran='';
+        let math;
+        let win=0,lose=0,equal=0;
+    </script>
+</body>
+</html>
